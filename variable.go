@@ -16,4 +16,15 @@ func main() {
 
 	var age int8 = 20
 	fmt.Println(age)
+
+	names := "fretty"
+	fmt.Println(names)
+	//:= deklarasi awal
+
+	var (
+		firstName = "Fretty"
+		lastName  = "Silalahi"
+	)
+	fmt.Println(firstName + " " + lastName)
+
 }
